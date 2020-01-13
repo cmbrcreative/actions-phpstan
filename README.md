@@ -7,5 +7,5 @@ A GitHub Action to run [PHPStan](https://github.com/phpstan/phpstan) on your php
 - name: PHPStan
   uses: cmbrcreative/actions-phpstan@master
   with:
-    dir: '--autoload-file=src/vendor/autoload.php ./src/src'
+    args: '--autoload-file=src/vendor/autoload.php ./src/src'
 ```
