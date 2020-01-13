@@ -1,5 +1,5 @@
-#!/bin/bash
+#!/bin/sh
 set -e
 PATH=/tmp/vendor/bin:$PATH
 
-phpstan analyse "$@"
+sh -c "phpstan analyse $*"
